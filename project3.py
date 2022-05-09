@@ -7,7 +7,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 #Read the latest data file 
-data=pd.read_csv('unredactor.tsv',sep='\\t',on_bad_lines='skip')
+data=pd.read_csv('https://raw.githubusercontent.com/cegme/cs5293sp22/main/unredactor.tsv',sep='\\t',on_bad_lines='skip')
 df=pd.DataFrame(data)
 
 
