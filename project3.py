@@ -3,7 +3,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
-from textblob import TextBlob
 import warnings
 warnings.filterwarnings('ignore')
 
